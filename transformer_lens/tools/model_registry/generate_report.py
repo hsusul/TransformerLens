@@ -52,6 +52,7 @@ ARCHITECTURE_DESCRIPTIONS: dict[str, str] = {
     "StableLmForCausalLM": "Stability AI's StableLM model",
     "SmolLM3ForCausalLM": "Hugging Face's SmolLM3 compact open model with NoPE layers",
     "T5ForConditionalGeneration": "Google's T5 encoder-decoder model (partial support)",
+    "BartForConditionalGeneration": "Facebook's BART encoder-decoder model",
     # Unsupported architectures
     "BertModel": "Google's BERT bidirectional encoder for understanding tasks",
     "BertForMaskedLM": "BERT with masked language modeling head",
@@ -68,7 +69,6 @@ ARCHITECTURE_DESCRIPTIONS: dict[str, str] = {
     "LongformerModel": "Allen AI's Longformer for long documents",
     "BigBirdModel": "Google's BigBird with sparse attention",
     "ReformerModel": "Google's Reformer with locality-sensitive hashing",
-    "BartForConditionalGeneration": "Facebook's BART encoder-decoder model",
     "MBartForConditionalGeneration": "Multilingual BART",
     "PegasusForConditionalGeneration": "Google's PEGASUS for summarization",
     "MT5ForConditionalGeneration": "Multilingual T5",
